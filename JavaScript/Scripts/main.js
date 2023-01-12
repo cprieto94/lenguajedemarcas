@@ -1,0 +1,1 @@
+const miTitulo = document.querySelector('h1');
