@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Pokémon</title>
+        <link rel="icon" href="./imagenes/icono_pokeball.ico" type="image/gif" sizes="16x16">
+        <link rel="stylesheet" href="./estiloscontacto.css">
+
+    </head>
+
+    <header>
+        <a href="./principal.html"><img src="./imagenes/Logo-Pokémon.png"></a>
+    </header>
+
+    <body>
+
+        <ul>
+            <li><a class="active" href="./principal.html">Principal</a></li>
+            <li><a href="./juegos.html">Apariciones</a></li>
+            <li><a href="./movimientos.html">Movimientos</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+        </ul><br>
+
+        <form class="formulario" action="https://httpbin.org/get" method="get">
+            <form class="informacion">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required autofocus><br><br>
+                <label for="apellido1">Apellido 1:</label>
+                <input type="text" id="apellido1" name="apellido1" required><br><br>
+                <label for="apellido2">Apellido 2:</label>
+                <input type="text" id="apellido2" name="apellido2" required><br><br>
+
+                <label for="email">Introduce tu email:</label>
+                <input type="email" id="email" name="email" placeholder="ejemplo@ejemplo.com" required><br><br>
+                <label for="myfile">Selecciona un fichero:</label>
+                <input type="file" id="archivo" name="archivo"><br>
+                <p>Cuentanos:<label for="areatexto"></label></p>
+                <textarea id="cosa" name="texto" rows="5" cols="50" required minlength="20" maxlength="500"></textarea><br><br>
+                <label><input type="checkbox" id="edad" required> Confirmo que tengo minimo 18 años</label><br>
+                <label><input type="submit"></label>
+
+
+            </form>
+        </form>
+
+
+    </body>
+
+
+</html>

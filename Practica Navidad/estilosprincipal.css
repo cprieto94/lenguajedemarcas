@@ -1,0 +1,92 @@
+html{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body{
+    background-color: lightsalmon;
+}
+
+.informacion{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: lightslategray;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkslategray;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #111;
+}
+
+.titulo{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: lightslategray;
+}
+.texto{
+    font-size: 30px;
+}
+
+.pokemon{
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: justify;
+    width: auto;
+    height: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: lightslategray;
+}
+
+
+.imagen{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 350px;
+    height: 350px;
+    text-align: left;
+    background-color: lightslategray;
+}
+.fondo{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 350px;
+    height: 350px;  
+}
+
+.parrafo2{
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: justify;
+    width: auto;
+    height: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: lightslategray;
+}
+
+.autoria{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: lightslategray;
+}

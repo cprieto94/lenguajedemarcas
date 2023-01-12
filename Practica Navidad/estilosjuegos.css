@@ -1,0 +1,125 @@
+html{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body{
+    background-color: lightsalmon;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkslategray;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover{
+    background-color: #111;
+}
+
+.informacion{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: lightslategray;
+}
+
+.creacion{
+    padding-left: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: lightslategray;
+    text-align: justify;
+}
+
+.localizaciones {
+    text-decoration: none;
+}
+
+.localizaciones:hover{
+    text-decoration: underline;
+}
+
+.juegos{
+    text-align: justify;
+}
+
+.generacion2{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: lightslategray;
+    text-align: center;
+    font-size: 40px;
+}
+
+.hooh{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: gold;
+    width: auto;
+    height: auto;
+}
+.oro{
+    margin-left: 5px;
+}
+.oroencuentro, .oropelea{
+    width: 250px;
+    height: 250px;
+    margin-left: 5px;
+}
+.texto1{
+    margin-left: 5px;
+}
+
+.lugia{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: silver;
+    width: auto;
+    height: auto;
+}
+.plata{
+    margin-left: 5px;
+}
+.plataencuentro, .platapelea{
+    width: 250px;
+    height: 250px;
+    margin-left: 5px;
+}
+.texto2{
+    margin-left: 5px;
+}
+
+.suicune{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: lightblue;
+    width: auto;
+    height: auto;
+}
+.cristal{
+    margin-left: 5px;
+}
+.cristalencuentro, .cristalpelea{
+    width: 250px;
+    height: 250px;
+    margin-left: 5px;
+}
+.texto3{
+    margin-left: 5px;
+}
+
