@@ -2,26 +2,25 @@
 <head>
     
 </head>
+<script src="./Scripts/main.js"></script>
 <script>
-    let perro = {
-        raza: "Beagle",
-        peso: 20,
-        altura: 0.4,
-        color: "Pardo",
-        ladrar: function() {
-            console.log ("Guau");
-        }
+    console.log(esPrimo(47));
+    let contenedorPrimos = document.getElementById("primo");
+    let n = 43;
+    if (esPrimo(n) === true){
+        //contenedorPrimos.innerHTML = "El numero " + n + " es primo."; 
+        console.log("El numero " + n + " es primo.");   
     }
-
-    let raza = perro.raza;
-    let peso = perro["peso"];
-    
-    console.log(raza);
+    else{
+        //contenedorPrimos.innerHTML = "El numero " + n + " no es primo.";
+        console.log("El numero " + n + " no es primo.");
+    }
 </script>
 <body>
     <h1>Getting started with JavaScript</h1>
     <p id="introduccion">JavaScript es un robusto lenguaje de programación que se puede aplicar a un documento HTML y usarse para crear interactividad 
         dinámica en los sitios web. Fue inventado por Brendan Eich, cofundador del proyecto Mozilla, Mozilla Foundation y la Corporación Mozilla.</p>
-    <script src="./Scripts/main.js"></script>
+
+    <h3 id="primo">Veremos si el numero es primo</h3>
 </body>
 </html>
