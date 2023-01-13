@@ -3,19 +3,7 @@
     
 </head>
 <script src="./Scripts/main.js"></script>
-<script>
-    console.log(esPrimo(47));
-    let contenedorPrimos = document.getElementById("primo");
-    let n = 43;
-    if (esPrimo(n) === true){
-        //contenedorPrimos.innerHTML = "El numero " + n + " es primo."; 
-        console.log("El numero " + n + " es primo.");   
-    }
-    else{
-        //contenedorPrimos.innerHTML = "El numero " + n + " no es primo.";
-        console.log("El numero " + n + " no es primo.");
-    }
-</script>
+
 <body>
     <h1>Getting started with JavaScript</h1>
     <p id="introduccion">JavaScript es un robusto lenguaje de programación que se puede aplicar a un documento HTML y usarse para crear interactividad 
@@ -23,4 +11,17 @@
 
     <h3 id="primo">Veremos si el numero es primo</h3>
 </body>
+<script>
+    console.log(esPrimo(47));
+    let contenedorPrimos = document.getElementById("primo");
+    let n = 45;
+    if (esPrimo(n) === true){
+        console.log("El numero " + n + " es primo."); 
+        contenedorPrimos.innerHTML = "El numero " + n + " es primo."; 
+    }
+    else{
+        contenedorPrimos.innerHTML = "El numero " + n + " no es primo.";
+        console.log("El numero " + n + " no es primo.");
+    }
+</script>
 </html>
