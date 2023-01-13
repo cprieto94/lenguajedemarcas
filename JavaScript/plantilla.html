@@ -3,7 +3,20 @@
     
 </head>
 <script>
+    let perro = {
+        raza: "Beagle",
+        peso: 20,
+        altura: 0.4,
+        color: "Pardo",
+        ladrar: function() {
+            console.log ("Guau");
+        }
+    }
+
+    let raza = perro.raza;
+    let peso = perro["peso"];
     
+    console.log(raza);
 </script>
 <body>
     <h1>Getting started with JavaScript</h1>
