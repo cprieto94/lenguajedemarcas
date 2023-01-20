@@ -1,9 +1,9 @@
 function manejadorLoadBody(){
     console.log("Se ha cargado el body");
-    peticionAsincrona();
+    peticionAsincrona(pintarFarmaciasMejor);
 }
 
-function peticionAsincrona(funcionParaCallback){
+function peticionAsincrona(metodo){
     const url="https://www.zaragoza.es/sede/servicio/farmacia?rf=html&srsname=wgs84&tipo=guardia&start=0&rows=50&distance=500";
     const http = new XMLHttpRequest();
     http.open("GET", url);
@@ -14,7 +14,7 @@ function peticionAsincrona(funcionParaCallback){
             
             let resultado = JSON.parse(this.responseText);
             console.log(resultado);
-            pintarFarmacias(resultado);
+            metodo(resultado);
         }
     }
     http.send();
@@ -41,7 +41,11 @@ function pintarFarmaciasMejor(objFarmacias){
     let contenido ='<ol>';
 
     arrayFarmacias.forEach(f => {
-        contenido += '<li><h4>' + f.title + '</h4></li>';
+        contenido += '<li><h4>' + f.title + '</h4>';
+        if (f.horario)
+            contenido += '<ul><li>' + f.horario + '</li></ul></li>'; 
+        else
+            contenido += '</li>'
     });
     contenido += '</ol>';
 
