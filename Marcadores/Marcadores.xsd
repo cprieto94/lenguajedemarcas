@@ -9,7 +9,6 @@
               <xs:element name="nombre" type="xs:string"/>
               <xs:element name="descripcion" type="xs:string"/>
               <xs:element name="url" type="xs:string"/>
-              <xs:element name="ultima_visita" type="xs:string"/>
              </xs:sequence>
           </xs:complexType>
         </xs:element>

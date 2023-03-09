@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="mujeres_cientificas.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<cientificas>
+    <cientifica>
+        <nombre>Patricia Heredia</nombre>
+        <lugar_origen>
+            <nombre_ciudad>Huesca</nombre_ciudad>
+            <coordenadas>
+                <latitud>42.1415</latitud>
+                <longitud>-0.4080</longitud>
+            </coordenadas>
+        </lugar_origen>
+        <anyo_nacimiento>1980</anyo_nacimiento>
+        <campo_trabajo>Ingeniera</campo_trabajo>
+        <campo_trabajo>Científica</campo_trabajo>
+        <obras_notables>Fundo MiniVinci, que es una academia donde se enseña sobre robótica, electrónica a niñas, niños, 
+            jovenes y adolescentes. Crear un canal de YouTube para poder enseñar sobre robótica y tecnología de una forma 
+            mas ludica. Algo más tarde fundo una asociación sin animo de lucro llamada Mulleres Tech, que sirve para dar 
+            visibilización a las mujeres en el ambito del sector digital destacando la parte divulgativa en el area STEAM.
+            Tambien ha coorganizado la iniciativa Women TechMakers Zaragoza promovida por Google para visibilizar y crear 
+            referentes femeninos en Aragón y romper con la brecha digital de género e impulsar el interés de las niñas 
+            hacia las carreras tecnológicas.</obras_notables>
+        <pagina_web>https://es.linkedin.com/in/patriciaherediagil</pagina_web>
+    </cientifica>
+</cientificas>

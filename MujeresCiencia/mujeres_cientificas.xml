@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<tarea>
+    
+    <!-- <instrucciones>
+       Estimados alumnos.
+        Aquí tenéis una lista de famosas científicas, ingenieras, etc.
+    
+        Debéis crear un documento XML validado con un XML SCHEMA o XSD apropiado.
+    
+        Para cada científica quiero ver los datos del modelo que os adjunto. 
+        
+        Debéis rellenar los datos de una científica cada uno y la validación debe ajustarse en la medida de lo posible a lo siguiente:
+
+        - El año de nacimiento es obligatorio y el de fallecimiento es opcional (algunas de las científicas que os pongo son actuales) y deben estar validados.
+        - La página web es una URL que debéis validar mediante expresión regular.
+        - El campo de trabajo puede ser uno o varios (máximo 3 para cada científica), pero debe haber una enumeración de los válidos: científica, ingeniera, física, química, geóloga, astronauta.
+        - Debéis validar el apartado de las obras notables: tamaño mínimo 50, máximo 1000.
+    
+    
+        A continuación os pongo la estructura básica de cada documento. La podéis complementar como mejor os parezca.
+        A cada uno os he puesto una científica distinta para rellenar la información.
+    </instrucciones> --> 
+
+    <![CDATA[     
+        <cientificas>
+            <cientifica>
+                <nombre></nombre>
+                <lugar_origen>
+                    <nombre_ciudad></nombre_ciudad>
+                    <coordenadas>
+                        <latitud></latitud>
+                        <longitud></longitud>
+                    </coordenadas>
+                </lugar_origen>
+                <anyo_nacimiento></anyo_nacimiento>
+                <anyo_fallecimiento></anyo_fallecimiento>
+                <campo_trabajo></campo_trabajo>
+                <obras_notables></obras_notables>
+                <pagina_web></pagina_web>
+            </cientifica>
+        </cientificas>
+        ]]>
+
+    <lista_candidatas>
+        <Augusto>Ada Lovelace</Augusto>
+        <Baias>Paloma Domingo</Baias>
+        <Ballesteros>Carol Shaw</Ballesteros>
+        <Beltrán>Grace Hopper</Beltrán>
+        <Burges>Hedy Lamarr</Burges>
+        <Cabrera>Nerea Luis Mingueza</Cabrera>
+        <Choque>Mary Lou Jepsen</Choque>
+        <El_Asmak>Radia Perlman</El_Asmak>
+        <Espejo>Alicia Asín</Espejo>
+        <Evdochim>Begoña Vila</Evdochim>
+        <García>Rana el Kaliouby</García>
+        <Gómez>Barbara Liskov</Gómez>
+        <Granja>Flora de Pablo</Granja>
+        <Herrera>Evelyn Berezin</Herrera>
+        <Illázquez>Margarita Salas</Illázquez>
+        <Lafoz>Cynthia Breazeal</Lafoz>
+        <Lario>Elena García Armada</Lario>
+        <Martitegui>Rosa Menéndez</Martitegui>
+        <Mayor>Margaret Hamilton</Mayor>
+        <Molina>Katherine Johnson</Molina>
+        <Nebra>Esther Borao</Nebra>
+        <Pomed>Ángela Ruiz Robles</Pomed>
+        <Prieto>Patricia Heredia</Prieto>
+        <Rioja>Joan Clarke</Rioja>
+        <Rodríguez>Shannon Lucid</Rodríguez>
+        <Roldán>Elizabeth Blackburn</Roldán>
+        <Royo>Jane Goodall</Royo>
+        <Ruiz>Rosalind Franklin</Ruiz>
+    </lista_candidatas>
+
+</tarea>

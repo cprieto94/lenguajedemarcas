@@ -5,18 +5,15 @@ xsi:noNamespaceSchemaLocation="marcadores.xsd">
       <nombre>Abrirllave</nombre>
       <descripcion>Tutoriales de informática.</descripcion>
       <url>http://www.abrirllave.com/</url>
-      <ultima_visita>Hoy</ultima_visita>
    </pagina>
    <pagina>
       <nombre>Wikipedia</nombre>
       <descripcion>La enciclopedia libre.</descripcion>
       <url>http://www.wikipedia.org/</url>
-      <ultima_visita>Hoy</ultima_visita>
    </pagina>
    <pagina>
       <nombre>W3C</nombre>
       <descripcion>World Wide Web Consortium.</descripcion>
       <url>http://www.w3.org/</url>
-      <ultima_visita>Hoy</ultima_visita>
    </pagina>
 </marcadores>
